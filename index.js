@@ -101,7 +101,9 @@ navLinks.addEventListener("click", (e) => {
     headline = "Simon Kane";
     const aboutMeHTML = `<section class="main-page">
   <h1>${headline}</h1>
-  <img src="./img/profilepic.jpg" alt="simonkane" />
+  <div class="img-container">
+  <img  src="./img/profilepic.jpg" alt="simonkane" />
+  </div>
   <div class="text">
   <p class="about-me-text">${text}</p>
   </div> </section>`;
